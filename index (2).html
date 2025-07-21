@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yashwitha Endluri - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="bg-canvas"></canvas>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container nav-flex">
+      <span class="nav-logo">Yashwitha</span>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#timeline">Timeline</a></li>
+        <li><a href="#Hobbies">Hobbies</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="container hero-flex">
+      <div class="hero-img-wrap">
+        <img src="profilepic.jpeg" alt="Profile" class="hero-img" />
+      </div>
+      <div class="hero-text">
+        <h1 style="color:#20add0; background:none; -webkit-background-clip:initial; -webkit-text-fill-color:initial; background-clip:initial;">Hi, I'm <span class="highlight" style="color:#20add0; background:none;">Yashwitha Endluri</span></h1>
+        <p class="hero-tagline" style="color:#20add0;">Aspiring Data Scientist | Code. Analyze. Inspire.</p>
+        <a href="#contact" class="cta-btn">Let's Connect</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <div class="container about-container">
+      <div class="about-flex" style="flex-direction: column; align-items: center;">
+        <img src="profilepic.jpeg" alt="Yashwitha Endluri" class="about-img" style="margin-bottom: 1.2em;" />
+        <div class="about-content" style="text-align: center;">
+          <h2>About Me</h2>
+          <h3>Yashwitha Endluri</h3>
+          <p class="about-title">Data Science Enthusiast | VIT University</p>
+          <p class="about-bio">Driven by curiosity and a passion for solving real-world problems with data. Experienced in Python, machine learning, and analytics. I thrive in collaborative environments and am committed to continuous learning and innovation.</p>
+          <div class="about-facts">
+            <div class="fact-card">🎓 M.Tech (CSE, Data Science)</div>
+            <div class="fact-card">📍 Chittoor, India</div>
+            <div class="fact-card">💼 1+ Years Project Experience</div>
+            <div class="fact-card">🌱 Learner</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="skills-heading">Skills</h2>
+      <div class="skills-container">
+        <div class="skill-card">
+          <div class="skill-name">Python</div>
+          <div class="skill-desc">Scripting, data analysis, automation</div>
+          <div class="skill-bar-bg"><div class="skill-bar" style="width: 95%"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-name">Machine Learning</div>
+          <div class="skill-desc">Modeling, scikit-learn, TensorFlow</div>
+          <div class="skill-bar-bg"><div class="skill-bar" style="width: 90%"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-name">Data Visualization</div>
+          <div class="skill-desc">Matplotlib, Seaborn, Power BI</div>
+          <div class="skill-bar-bg"><div class="skill-bar" style="width: 88%"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-name">SQL</div>
+          <div class="skill-desc">Database design, queries, MySQL</div>
+          <div class="skill-bar-bg"><div class="skill-bar" style="width: 85%"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-name">Statistics</div>
+          <div class="skill-desc">Hypothesis testing, regression</div>
+          <div class="skill-bar-bg"><div class="skill-bar" style="width: 80%"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-name">Web Development</div>
+          <div class="skill-desc">HTML, CSS, JavaScript, React</div>
+          <div class="skill-bar-bg"><div class="skill-bar" style="width: 78%"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-name">Cloud & Deployment</div>
+          <div class="skill-desc">AWS, Heroku, CI/CD</div>
+          <div class="skill-bar-bg"><div class="skill-bar" style="width: 50%"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-name">Collaboration</div>
+          <div class="skill-desc">Git, teamwork, agile methods</div>
+          <div class="skill-bar-bg"><div class="skill-bar" style="width: 75%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2 style="color:#20add0;">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="crowdsence.png" alt="CrowdSense-AI" />
+          <div class="project-info">
+            <h3 style="color:#20add0;">CrowdSense-AI</h3>
+            <p style="color:#151313;">Crowd Detection and Alert System</p>
+            <ul>
+              <li style="color:#151313;">YOLOv8 & OpenCV</li>
+              <li style="color:#151313;">Flask dashboard, threshold alerts, admin controls</li>
+            </ul>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="insuline dose cal.jpeg" alt="Insulin Dose Calculator" />
+          <div class="project-info">
+            <h3 style="color:#20add0;">Data-Driven Insulin Dose Calculator</h3>
+            <p style="color:#151313;">Personalized insulin dose recommendations</p>
+            <ul>
+              <li style="color:#151313;">Predictive modeling, trend tracking, dashboards</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline -->
+  <section class="timeline" id="timeline">
+    <div class="container">
+      <h2 style="color:#20add0;">Timeline</h2>
+      <div class="timeline-list">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3 style="color:#20add0;">VIT - Integrated M.Tech CSE (Data Science)</h3>
+            <span style="color:#151313;">2023 – Present</span>
+            <p style="color:#151313;">Relevant Coursework: DSA (Python), Probability & Statistics, Linear Algebra</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3 style="color:#20add0;">IEEE WIE Club Member</h3>
+            <span style="color:#151313;">2023 – Present</span>
+            <p style="color:#151313;">Active member, tech events, hackathons, outreach.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3 style="color:#20add0;">Volunteer, Gravitas’24 Tech-Fest</h3>
+            <span style="color:#151313;">2024</span>
+            <p style="color:#151313;">Organized events, collaborated with teams, supported participants.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Hobbies">
+    <div class="container about-container">
+      <div class="about-flex" style="flex-direction: column; align-items: center;">
+        <div class="about-content" style="text-align: center;">
+          <h2>Hobbies</h2>
+          <p style="color:#151313;">Listening music</p>
+          <p style="color:#151313;">Reading Novels</p>
+          <p style="color:#151313;">Playing Badminton</p>
+          <p style="color:#151313;">Playing Keyboard</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- Contact Me Section -->
+  <section id="contact">
+    <div class="container contact-container">
+      <div class="contact-flex">
+        <div class="contact-info">
+          <h2>Contact Me</h2>
+          <p><strong>Email:</strong> yashwithaendluri11@gmail.com</p>
+          <p><strong>Phone:</strong> +91 6303124275</p>
+          <p><strong>Location:</strong> Chittoor, India</p>
+          <div class="contact-socials">
+            <a href="#" aria-label="LinkedIn"><svg width="24" height="24" fill="#20add0"><use href="#icon-linkedin"/></svg></a>
+            <a href="#" aria-label="GitHub"><svg width="24" height="24" fill="#20add0"><use href="#icon-github"/></svg></a>
+          </div>
+        </div>
+        <form class="contact-form">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit" class="cta-btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Made by Yashwitha Endluri | ©️ 2025</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
